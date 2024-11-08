@@ -1,0 +1,39 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lillopez <lillopez@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/09/05 17:52:14 by lillopez          #+#    #+#             */
+/*   Updated: 2024/09/09 13:17:07 by lillopez         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <unistd.h>
+//#include <stdio.h>
+
+void	ft_ultimate_ft(int *********nbr)
+{
+	*********nbr = 42;
+}
+
+/*
+int main(void)
+{
+	int	a = 0;
+ 	int *p = &a;
+	int **p1 = &p;
+	int ***p2 = &p1;
+	int ****p3 = &p2;
+	int *****p4 = &p3;
+	int ******p5 = &p4;
+	int *******p6 = &p5;
+	int ********p7 = &p6;
+	int *********p8 = &p7;
+	
+	printf("valeur avant = %d\n", a);
+	ft_ultimate_ft(p8);
+	printf("valeur apres = %d\n", a);
+}
+*/
